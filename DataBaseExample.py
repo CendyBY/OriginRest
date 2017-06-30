@@ -12,8 +12,8 @@ from sqlalchemy import Column, String, create_engine,Float,MetaData,Integer
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-apikey = '975359f4-fc3f-4941-b66d-d2643eb2fe7c'
-secretkey = 'E79EB99F9162B096096BDF71EC16BACC'
+apikey = '***'
+secretkey = '***'
 okcoinRESTURL = 'www.okcoin.cn'   #请求注意：国内账号需要 修改为 www.okcoin.cn  
 #现货API
 okcoinSpot = OKCoinSpot(okcoinRESTURL,apikey,secretkey)
